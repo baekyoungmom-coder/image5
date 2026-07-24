@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>image5</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 24px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      max-width: 900px;
+    }
+    figure {
+      margin: 0;
+      text-align: center;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      display: block;
+    }
+    figcaption {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <h1>image5</h1>
+  <div class="grid">
+    <figure>
+      <img src="사진/harry-potter.png" alt="Harry Potter" />
+      <figcaption>Harry Potter</figcaption>
+    </figure>
+    <figure>
+      <img src="사진/game-of-thrones.png" alt="Game of Thrones" />
+      <figcaption>Game of Thrones</figcaption>
+    </figure>
+    <figure>
+      <img src="사진/odyssey.png" alt="Odyssey" />
+      <figcaption>Odyssey</figcaption>
+    </figure>
+  </div>
+</body>
+</html>
